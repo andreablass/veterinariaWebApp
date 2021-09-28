@@ -26,5 +26,7 @@ class MascotaController extends Controller
         DB::rollback();
         return response()->json($queryException->errorInfo,500);
         }
+    
     }
+
 }
